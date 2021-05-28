@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1 Apply For Job
+  form(method='POST', action='/applications/apply')
+    #form-group
+        label Profession:
+        input.form-control(name='profession', type='text')
+    #form-group
+        label Skill-1:
+        input.form-control(name='skill1', type='text')
+    #form-group
+        label Skill-2:
+        input.form-control(name='skill2', type='text')
+    #form-group
+        label Skill-3:
+        input.form-control(name='skill3', type='text')
+    #form-group
+        label Skill-4:
+        input.form-control(name='skill4', type='text')
+    #form-group
+        label GitHub:
+        input.form-control(name='github', type='text')
+    #form-group
+        label LinkedIn:
+        input.form-control(name='linkedin', type='text')
+    #form-group
+        label Resume:
+        input.form-control(name='resume', type='file')
+        br
+        input.btn.btn-primary(type='submit',value='Submit' )  
+          

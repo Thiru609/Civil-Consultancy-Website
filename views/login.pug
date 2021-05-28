@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  link(rel='stylesheet' href='/css/style.css')
+  #login
+  h1 Sign in
+  form(method='POST', action='/users/login')
+    #username
+          label Username:
+          input.form-control(name='username', type='text')
+    #password
+          label Password:
+          input.form-control(name='password', type='password')
+          br
+          input.btn.btn-primary(type='submit',value='Submit')  
+        

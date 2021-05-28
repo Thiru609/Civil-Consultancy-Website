@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 Welcome to Kuber Consultancies!
+  br
+  br
+  ul.list-group
+    each article, i in articles
+        a(href="/articles/"+article._id style="font-size: 40px; text-decoration: bold; color: black")= article.title
+        p Written by #{author}
+        p=article.body
+        img(src='/uploads/targetip.PNG-1602332227424.PNG')
+        hr
+        

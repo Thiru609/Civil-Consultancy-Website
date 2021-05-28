@@ -1,0 +1,362 @@
+.alert-error{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-success_msg{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.mediaViewInfo {
+  --web-view-name: Web 1920 – 15;
+  --web-view-id: Web_1920__15;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Web_1920__15;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Web_1920__15 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: Web 1920 – 15;
+  --web-view-id: Web_1920__15;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+#Component_1__15 {
+  position: absolute;
+  width: 1920px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_1 {
+  fill: rgba(245,132,226,1);
+}
+.Rectangle_1 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+}
+#Line_1 {
+  fill: transparent;
+  stroke: rgba(255,255,255,1);
+  stroke-width: 4px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_1 {
+  mix-blend-mode: lighten;
+  overflow: visible;
+  position: absolute;
+  width: 4px;
+  height: 51px;
+  left: 261.5px;
+  top: 13.5px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Kuber {
+  left: 17px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 82px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#Consultancy {
+  left: 58px;
+  top: 35px;
+  position: absolute;
+  overflow: visible;
+  width: 167px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#Projects {
+  left: 1013px;
+  top: 19px;
+  position: absolute;
+  overflow: visible;
+  width: 109px;
+  white-space: nowrap;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Web_1920___5.html;
+  cursor: pointer;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#Services {
+  left: 1186px;
+  top: 19px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  white-space: nowrap;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Web_1920___6.html;
+  cursor: pointer;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#Careers {
+  left: 1362px;
+  top: 19px;
+  position: absolute;
+  overflow: visible;
+  width: 102px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#About_Us {
+  left: 1528px;
+  top: 19px;
+  position: absolute;
+  overflow: visible;
+  width: 128px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+#ic_email_24px {
+  fill: rgba(255,255,255,1);
+}
+.ic_email_24px {
+  overflow: visible;
+  position: absolute;
+  width: 39.75px;
+  height: 28px;
+  left: 1720px;
+  top: 25px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#ic_search_24px {
+  fill: rgba(255,255,255,1);
+}
+.ic_search_24px {
+  overflow: visible;
+  position: absolute;
+  width: 33.509px;
+  height: 33.509px;
+  left: 1825.24px;
+  top: 21.981px;
+  transform: matrix(1,0,0,1,0,0);
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Web_1920___11.html;
+  cursor: pointer;
+}
+#Rectangle_2 {
+  fill: rgba(252,246,245,1);
+}
+.Rectangle_2 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 1002px;
+  left: 0px;
+  top: 78px;
+}
+#login {
+  left: 720px;
+  top: 259px;
+  position: absolute;
+  overflow: visible;
+  width: 481px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 61px;
+  color: rgba(0,0,0,1);
+}
+#username {
+  left: 720px;
+  top: 361px;
+  position: absolute;
+  overflow: visible;
+  width: 165px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: rgba(0,0,0,1);
+}
+#password {
+  left: 730px;
+  top: 539px;
+  position: absolute;
+  overflow: visible;
+  width: 188px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: rgba(0,0,0,1);
+}
+#New_with_us_ {
+  left: 802px;
+  top: 717px;
+  position: absolute;
+  overflow: visible;
+  width: 196px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  color: rgba(0,0,0,1);
+}
+#Sign_Up {
+  left: 1024px;
+  top: 717px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  white-space: nowrap;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Web_1920___16.html;
+  cursor: pointer;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  color: rgba(121,173,233,1);
+}
+#Rectangle_12 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(245,132,226,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_12 {
+  position: absolute;
+  overflow: visible;
+  width: 559px;
+  height: 78px;
+  left: 711px;
+  top: 440px;
+}
+#Rectangle_13 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(245,132,226,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 559px;
+  height: 78px;
+  left: 711px;
+  top: 618px;
+}
+#Group_93 {
+  position: absolute;
+  width: 144px;
+  height: 62px;
+  left: 888px;
+  top: 803px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Web_1920___1.html;
+  cursor: pointer;
+}
+#Rectangle_9 {
+  fill: rgba(121,173,233,1);
+}
+.Rectangle_9 {
+  position: absolute;
+  overflow: visible;
+  width: 144px;
+  height: 62px;
+  left: 0px;
+  top: 0px;
+}
+#Sign_In {
+  left: 26px;
+  top: 12px;
+  position: absolute;
+  overflow: visible;
+  width: 89px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: rgba(255,255,255,1);
+}

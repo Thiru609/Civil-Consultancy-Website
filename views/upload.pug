@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet' href='/css/style.css')
+    title File Uploads
+  body
+    .container
+      h1 File Upload
+      |  
+      form(action='/upload' method='POST' enctype='multipart/form-data')
+        .file-field.input-field
+          .btn.grey
+            span File
+            input(name='myFile' type='file')
+          br
+          .file-path-wrapper
+            input.file-path.validate(type='text' placeholder='filename')
+        br
+        button.btn-success(type='submit') Submit
+        br 
+    script(src='/bower_components/jquery/dist/jquery.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src='/bower_components/materialize/dist/js/materialize.js')
